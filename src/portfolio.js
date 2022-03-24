@@ -24,9 +24,9 @@ const greeting = {
   // title: "Hi all, I'm Saad",
   title: emoji("Hello Everyone!, I'm Sai"),
   subTitle: emoji(
-    "I am a Computer Science Student 💻 at George Mason University, I am also pursuing a minor in Computational Data Science. I am passionate about building cool applications and solving problems. I love robotics and creating web applications. I am also a big fan of the latest tech and I am always trying to learn new things. I hope you enjoy my portfolio! 😊" 
+    "I am a Computer Science Student 💻 at George Mason University, I am also pursuing a minor in Computational Data Science. I am passionate about building cool applications and solving problems. I love robotics and creating web applications. I am also a big fan of the latest tech and I am always trying to learn new things. I hope you enjoy my portfolio! 😊"
   ),
-  resumeLink: 
+  resumeLink:
     "https://drive.google.com/file/d/18GqiuPe4Rg8P4LfktmlmIH9n07bm07hU/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -77,7 +77,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fab fa-C"
+      fontAwesomeClassname: "fab fa-c"
     },
     {
       skillName: "JavaScript",
@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,7 +102,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "George Mason University",
       logo: require("./assets/images/GMU-Featured-Image.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "Graduated May 2023",
@@ -132,7 +132,12 @@ const techStack = {
     {
       Stack: "C",
       progressPercentage: "82%"
+    },
+    {
+      Stack: "JavaScript",
+      progressPercentage: "60%"
     }
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -143,29 +148,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Summer Research Intern",
+      company: "Office of Revenue Analysis",
+      companylogo: require("./assets/images/ora.png"),
+      date: "June 2018 – August 2018",
+      desc: "Devoloped tools for the Office of Revenue Analysis to improve their efficiency and accuracy.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Researched the effects of new construction and renovations on the existing market using market data and tax information.",
+        "Assisted in web scraping and data gathering for other projects using Python and SQL Enterprise."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      role: "IT Analyst Intern",
+      company: "American Association of Medical Colleges",
+      companylogo: require("./assets/images/AAMC.png"),
+      date: "May 2021 – September 2021",
+      desc: "Completed a summer internship in the IT department of the AAMC.",
+      descBullets: [
+        "Wrote reports analyzing licensing costs of MFA applications to reduce budget expenditures.",
+        "Assisted in the AWS migration and training. Was responsible for ensuring smooth migration for teams."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      
+      role: "Tutor",
+      company: "Coherence Learning",
+      companylogo: require("./assets/images/Coherence.jpg"),
+      date: "January 2019 – Present",
+      desc: "Work part time as a tutor for students in the Coherence Learning program.",
+      descBullets: [
+        "Developed a Intro to Programming course for students as a tutor.",
+        "Taught students mathetics from Algebra to Multivariable Calculus."
+      ] 
     }
   ]
 };
@@ -258,7 +273,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -328,7 +343,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "If you want to get in touch with me just shoot me an email or you can message me at the contact info below", 
+    "If you want to get in touch with me just shoot me an email or you can message me at the contact info below",
   number: "571-337-2769",
   email_address: "skommur@gmu.edu"
 };
