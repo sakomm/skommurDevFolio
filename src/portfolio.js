@@ -51,11 +51,11 @@ const skillsSection = {
   subTitle: "I would love to work and further my passion for robotics and software development. Secure a challenging and exciting internship to broaden my technical abilities and further develop my skills in the field of software development. I would love to make contributions that will create a positive impact on the world.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Driven to learn and constantly improving my skills in the field of software development."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("Working with a team to create a product."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "Having a strong work ethic and a positive attitude towards the work I do."
     )
   ],
 
@@ -77,11 +77,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fab fa-c"
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "sql-database",
