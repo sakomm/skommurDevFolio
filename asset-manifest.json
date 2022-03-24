@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1a6005f5.chunk.css",
-    "main.js": "/static/js/main.7e24d62a.chunk.js",
-    "main.js.map": "/static/js/main.7e24d62a.chunk.js.map",
+    "main.js": "/static/js/main.f0c88a29.chunk.js",
+    "main.js.map": "/static/js/main.f0c88a29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.42bbf704.js",
     "runtime-main.js.map": "/static/js/runtime-main.42bbf704.js.map",
     "static/js/2.e85f9fa3.chunk.js": "/static/js/2.e85f9fa3.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.afe8fb20.chunk.js": "/static/js/4.afe8fb20.chunk.js",
     "static/js/4.afe8fb20.chunk.js.map": "/static/js/4.afe8fb20.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79cb5cd5bb28ed7f0493abdef3218c40.js": "/precache-manifest.79cb5cd5bb28ed7f0493abdef3218c40.js",
+    "precache-manifest.af6e07d2191ea6623edaf4b38c580f9e.js": "/precache-manifest.af6e07d2191ea6623edaf4b38c580f9e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
@@ -22,16 +22,14 @@
     "static/js/2.e85f9fa3.chunk.js.LICENSE.txt": "/static/js/2.e85f9fa3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/GMU-Featured-Image.png": "/static/media/GMU-Featured-Image.f152b8e7.png",
-    "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
-    "static/media/facebookLogo.png": "/static/media/facebookLogo.8ddf76a1.png",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.e79c6392.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/ora.png": "/static/media/ora.5ba66566.png",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.ee62cb58.webp",
-    "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
@@ -40,6 +38,6 @@
     "static/js/runtime-main.42bbf704.js",
     "static/js/2.e85f9fa3.chunk.js",
     "static/css/main.1a6005f5.chunk.css",
-    "static/js/main.7e24d62a.chunk.js"
+    "static/js/main.f0c88a29.chunk.js"
   ]
 }
