@@ -220,24 +220,24 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/fitness.gif"),
+      image: require("./assets/images/fitness.png"),
       projectName: "Fitness Assistant -- Plank!",
       projectDesc: "Track human body movement using computer vision to determine and assist in exercises. This program can view and understand Human Body positoin with a strong degree of confidence even without a perfect head on view. It can also assist in the execution of exercises. Built with python and opencv and mediapipe. I learned how to use the opencv library to analyze images and use the mediapipe framework to assist in the execution of exercises. Implementing Heroku and AWS will allow the program to be deployed to the cloud.",
       footerLink: [
         {
-          name: "View the repository",
+          name: "Vist the repo",
           url: "https://github.com/sakomm/FitnessTrainer"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/beach.jpg"),
+      projectName: "Paradise Springs",
+      projectDesc: "Are you tired of searching multiple sites and having hundreds of tabs open to find one vacation rental? Our website searches for you, compiling all the available rooms or houses for you to easily browse. We have tools for you to measure the safety of areas so you can feel secure in your choice, rank based on distance, number of rooms, closest attractions, and others. Built with React and using the MVC architecture to create a single page application. I learned valuble skills about working in a team and working using agile methodologies.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit the repo",
+          url: "https://github.com/sakomm/Paradise_springs" // change when website is live
         }
       ]
     }
@@ -362,9 +362,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "If you want to get in touch with me just shoot me an email or you can message me at the contact info below",
+    "If you want to get in touch with me just send me an email or you can message me at the contact info below",
   number: "571-337-2769",
-  email_address: "skommur@gmu.edu"
+  email_address: "sakommuri@gmail.com"
 };
 
 // Twitter Section
