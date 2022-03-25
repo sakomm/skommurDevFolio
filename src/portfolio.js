@@ -214,7 +214,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "sakomm.github.io/pokemon_website/"
+          url: "https://sakomm.github.io/pokemon_website/"
         }
         //  you can add extra buttons here.
       ]
@@ -367,8 +367,11 @@ const contactInfo = {
   email_address: "sakommuri@gmail.com"
 };
 
-// Twitter Section
 
+//One of the largest considerations we need to be making while developing this site is load times which has been speed. This has been a decision we have kept in the foreground when designing the site. We have designed the systems scraping to reduce intial latency and also to reduce the number of requests we make to the server. To that measure 
+
+
+// Twitter Section
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
