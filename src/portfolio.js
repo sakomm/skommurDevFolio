@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2100 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -208,25 +208,25 @@ const bigProjects = {
   subtitle: "Some of my favorite projects I have worked on", 
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pokemon.png"),
+      projectName: "Pokemon Dashboard",
+      projectDesc: "A website that allows you to compare the stats of Pokémon's by type allowing analysis by Attack VS Defense and HP. Built with HTML, CSS, JavaScript, and Bootstrap. It has interactive graph elements that support full user interaction. The page is responsive and works on mobile devices and tablets. I learned how to use the Bootstrap framework and how to create a responsive website. I also learned how to use the JavaScript framework to create interactive elements. ", 
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "sakomm.github.io/pokemon_website/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fitness.gif"),
+      projectName: "Fitness Assistant -- Plank!",
+      projectDesc: "Track human body movement using computer vision to determine and assist in exercises. This program can view and understand Human Body positoin with a strong degree of confidence even without a perfect head on view. It can also assist in the execution of exercises. Built with python and opencv and mediapipe. I learned how to use the opencv library to analyze images and use the mediapipe framework to assist in the execution of exercises. Implementing Heroku and AWS will allow the program to be deployed to the cloud.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View the repository",
+          url: "https://github.com/sakomm/FitnessTrainer"
         }
       ]
     },
@@ -242,7 +242,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
